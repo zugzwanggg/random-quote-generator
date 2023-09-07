@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background:rgb(117, 117, 117);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+button {
+  border: none;
+  display: block;
+  background: transparent;
+  transition: .3s;
+}
+
+.container {
+  width: 40rem;
+  margin: 0 auto;
+  padding: 1.5rem 3rem;
+  background: white;
+  border-radius: 0.7rem;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  .quote {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 1rem;
+  }
+  gap: 1rem;
+  button {
+    margin-top: 2rem;
+    padding: 1rem 0;
+    width: 100%;
+    background: black;
+    color: white;
+    border-radius: 0.7rem;
+  }
+}
